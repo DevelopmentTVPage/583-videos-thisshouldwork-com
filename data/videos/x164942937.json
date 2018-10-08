@@ -1,0 +1,84 @@
+{
+    "title": "trim.245F161C-0561-4426-A078-6F5F4605695C",
+    "description": "",
+    "referenceId": "ca4fe12ebb4b36f1bdc1bb9169cd0f78",
+    "date_created": "1529366278",
+    "date_modified": "1529366290",
+    "tags": "",
+    "sourceId": "6",
+    "status": "approved",
+    "visibility": "1",
+    "VV_VI": null,
+    "engagement_score": null,
+    "conversion_score": null,
+    "CVV_VI": null,
+    "video_type": null,
+    "user_id": "213279",
+    "product_category": null,
+    "id": "164942937",
+    "loginId": "1759121",
+    "entityType": "1",
+    "titleTextEncoded": "trim-245f161c-0561-4426-a078-6f5f4605695c",
+    "category": null,
+    "tvp_profiles": null,
+    "tvp_profiles_manual": null,
+    "tvp_profiles_maxscore": null,
+    "VIDEO_LENGTH": "SHORT",
+    "duration": "4",
+    "settings": null,
+    "asset": {
+        "sources": [
+            {
+                "file": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/1080p_media.mp4",
+                "quality": "1080p",
+                "mime": "video\/mp4",
+                "width": 870,
+                "height": 1080
+            },
+            {
+                "file": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/720p_media.mp4",
+                "quality": "720p",
+                "mime": "video\/mp4",
+                "width": 580,
+                "height": 720
+            },
+            {
+                "file": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/480p_media.mp4",
+                "quality": "480p",
+                "mime": "video\/mp4",
+                "width": 386,
+                "height": 480
+            },
+            {
+                "file": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/360p_media.mp4",
+                "quality": "360p",
+                "mime": "video\/mp4",
+                "width": 290,
+                "height": 360
+            },
+            {
+                "file": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/240p_media.mp4",
+                "quality": "240p",
+                "mime": "video\/mp4",
+                "width": 194,
+                "height": 240
+            }
+        ],
+        "videoMeta": {
+            "duration": "4",
+            "width": 870,
+            "height": 1080
+        },
+        "mediaDuration": "4",
+        "prettyDuration": "00:00:04",
+        "thumbnailUrl": "\/\/v.tvpage.com\/1759121\/164942937\/15215\/thumb-ca4fe12ebb4b36f1bdc1bb9169cd0f78-00002.jpg",
+        "type": "mp4"
+    },
+    "transcripts": null,
+    "metrics_statistics": null,
+    "tvp_enhanced_search": null,
+    "tvp_enhanced_anti": null,
+    "tvp_enhanced_brand": null,
+    "tvp_enhanced_video_images": "",
+    "tvp_enhanced_transcript": null
+}
