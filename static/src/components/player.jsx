@@ -24,10 +24,6 @@ class Player extends PureComponent{
 			player : null,
 			ambassador : ambassador
 		}
-		
-		if(props.video.hasOwnProperty("id")){
-			this.loadProducts(props.video.id);
-		}
 	}
 	ambassadorOnLoad(){
 		let ambassador = {};
@@ -38,6 +34,43 @@ class Player extends PureComponent{
 		}
 		return ambassador;
 	}
+    loadPhotoProducts = (videoId) => {
+        $.ajax({
+            url:`https://stage.tvpage.com/v2/api/entity/${TVSite.loginId}/entity/${videoId}/products`
+        }).done((function(response){
+            let productMatches = response && 'matches' in response ? response.matches : [];
+
+            this.setState(state => {
+                if(productMatches.length){
+                    productMatches = productMatches.map(pm => (
+                        {
+                            ...pm.entity,
+                            ...pm.entity.data,
+                            entityIdParent: videoId
+                        }
+                    ));
+
+                    productMatches.forEach(pm => {
+                        Common.createProductStructureData(pm);
+                        Analytics.productImpresion(pm);
+                    });
+
+                    return {
+                        ...state,
+                        products: productMatches,
+                        hasProducts : true
+                    }
+                }else{
+                    return {
+                        ...state,
+                        products: [],
+                        hasProducts : false
+                    }
+                }
+            })
+
+        }).bind(this));
+    }
 	loadProducts = (videoId) => {
 		var that= this;
 		Api.products(videoId).done(function(data){
@@ -123,9 +156,18 @@ class Player extends PureComponent{
 		this.setState({player : player});
 
 		let videoObj = this.props.video;
+		const videoObjId = videoObj.id;
+
+		if('entityType' in videoObj && 7 == videoObj.entityType){
+            this.loadPhotoProducts(videoObjId);
+        }else{
+            if(videoObj.hasOwnProperty("id")){
+                this.loadProducts(videoObjId);
+            }
+        }
 
 		$.ajax({
-			url: '//api.tvpage.com/v1/videos/' + videoObj.id + '?X-login-id=' + TVSite.loginId,
+			url: '//api.tvpage.com/v1/videos/' + videoObjId + '?X-login-id=' + TVSite.loginId,
 			dataType: 'jsonp',
 		}).done(function(response){
 			document.querySelector('.tvp-player-video-title-text').innerHTML = response && response.title ? response.title : videoObj.title;

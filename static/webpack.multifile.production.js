@@ -3,7 +3,7 @@ const autoprefixer  = require("autoprefixer");
 const webpack = require("webpack");
 const WebpackCleanupPlugin = require('webpack-cleanup-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const subfolder = "/style-crew";
+const subfolder = "";
 
 module.exports = {
     devtool : "cheap-module-source-map",

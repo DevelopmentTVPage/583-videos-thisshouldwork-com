@@ -10,6 +10,15 @@
 	{{- $ambassador := index $.Site.Data.ambassadors (printf "x%s" .Params.id ) -}}
 	{{- $ambassadorPhoto := printf "https://api.tvpage.com%s" $ambassador.profile_picture -}}
 	{{- $.Scratch.Add "metaImg" $ambassadorPhoto -}}
+{{- else if eq .Layout "photo" -}}
+{{ $photo := index $.Site.Data.photos (printf "x%s" .Params.photoid ) }}
+{{ with $photo.assets }}
+    {{ with .thumbnails }}
+        {{ if (gt (len .) 0) }}
+            {{- $.Scratch.Add "metaImg" (index . 0).url -}}
+        {{ end }}
+    {{ end }}
+{{ end }}
 {{- else if or (eq .Layout "channelVideo") (eq .Layout "video") -}}
 	{{- $video := index $.Site.Data.videos (printf "x%s" .Params.videoid ) -}}
 	{{- if and (isset $video "asset") (isset $video.asset "thumbnailUrl") -}}
