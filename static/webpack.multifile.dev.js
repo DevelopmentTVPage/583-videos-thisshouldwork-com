@@ -1,7 +1,7 @@
 const path = require("path");
 const autoprefixer  = require("autoprefixer");
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const subfolder = "/style-crew";
+const subfolder = "";
 
 module.exports = {
     devtool : "cheap-module-eval-source-map",
