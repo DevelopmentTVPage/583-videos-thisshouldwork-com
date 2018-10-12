@@ -1,0 +1,133 @@
+{
+    "title": "Jdkkfhd",
+    "description": "Kfosjfb",
+    "referenceId": null,
+    "date_created": "1539294255",
+    "date_modified": "1539324060",
+    "tags": null,
+    "sourceId": null,
+    "status": "pending",
+    "visibility": "1",
+    "VV_VI": null,
+    "engagement_score": null,
+    "conversion_score": null,
+    "CVV_VI": null,
+    "video_type": null,
+    "user_id": "634",
+    "product_category": null,
+    "id": "165008493",
+    "loginId": "1759121",
+    "entityType": "7",
+    "titleTextEncoded": "jdkkfhd",
+    "category": "Jewelry",
+    "tvp_profiles": null,
+    "tvp_profiles_manual": null,
+    "tvp_profiles_maxscore": null,
+    "VIDEO_LENGTH": null,
+    "duration": null,
+    "settings": null,
+    "asset": null,
+    "transcripts": null,
+    "metrics_statistics": null,
+    "tvp_enhanced_search": null,
+    "tvp_enhanced_anti": null,
+    "tvp_enhanced_brand": null,
+    "tvp_enhanced_video_images": null,
+    "tvp_enhanced_transcript": null,
+    "assets": {
+        "sources": [
+            {
+                "width": 1920,
+                "height": 1440,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1920.png"
+            },
+            {
+                "width": 1280,
+                "height": 960,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1280.png"
+            },
+            {
+                "width": 1200,
+                "height": 900,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1200.png"
+            },
+            {
+                "width": 1024,
+                "height": 768,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1024.png"
+            },
+            {
+                "width": 1080,
+                "height": 810,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1080.png"
+            },
+            {
+                "width": 960,
+                "height": 720,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--960.png"
+            },
+            {
+                "width": 640,
+                "height": 480,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--640.png"
+            },
+            {
+                "width": 600,
+                "height": 450,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--600.png"
+            },
+            {
+                "width": 256,
+                "height": 192,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--256.png"
+            }
+        ],
+        "thumbnails": [
+            {
+                "width": 1920,
+                "height": 1080,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1920.png"
+            },
+            {
+                "width": 1280,
+                "height": 720,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1280.png"
+            },
+            {
+                "width": 640,
+                "height": 360,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-640.png"
+            },
+            {
+                "width": 480,
+                "height": 270,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-480.png"
+            },
+            {
+                "width": 256,
+                "height": 144,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-256.png"
+            },
+            {
+                "width": 64,
+                "height": 64,
+                "format": "png",
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-64.png"
+            }
+        ]
+    }
+}
