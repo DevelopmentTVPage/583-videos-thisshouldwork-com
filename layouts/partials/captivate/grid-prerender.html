@@ -3,7 +3,7 @@
 {{- $loginId := .Site.Params.loginId -}}
 <div id="tvp-video-gallery">
     <div class="container">
-        {{- if eq .Layout "video" -}}
+        {{- if  or (eq .Layout "video") (eq .Layout "photo") -}}
             <div class="tvp-line-related">
 					<div class="text-center">
 						RELATED VIDEOS
