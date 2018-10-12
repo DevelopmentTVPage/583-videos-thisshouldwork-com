@@ -3,10 +3,10 @@
     "description": "Hello World",
     "referenceId": null,
     "date_created": "1539311444",
-    "date_modified": "1539314364",
+    "date_modified": "1539314380",
     "tags": null,
     "sourceId": null,
-    "status": "approved",
+    "status": "publishing",
     "visibility": "1",
     "VV_VI": null,
     "engagement_score": null,
@@ -38,9 +38,9 @@
         "sources": [
             {
                 "width": 256,
-                "height": 357,
+                "height": 252,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-media--256.png?v=1539314364533"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-media--256.png?v=1539314380342"
             }
         ],
         "thumbnails": [
@@ -48,13 +48,13 @@
                 "width": 256,
                 "height": 144,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-thumbnail-256.png?v=1539314364678"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-thumbnail-256.png?v=1539314380424"
             },
             {
                 "width": 64,
                 "height": 64,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-thumbnail-64.png?v=1539314364675"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008498\/image-thumbnail-64.png?v=1539314380420"
             }
         ]
     }
