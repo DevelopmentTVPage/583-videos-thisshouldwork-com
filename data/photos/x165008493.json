@@ -3,7 +3,7 @@
     "description": "Kfosjfb",
     "referenceId": null,
     "date_created": "1539294255",
-    "date_modified": "1539324060",
+    "date_modified": "1539324089",
     "tags": null,
     "sourceId": null,
     "status": "pending",
@@ -38,57 +38,57 @@
         "sources": [
             {
                 "width": 1920,
-                "height": 1440,
+                "height": 1439,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1920.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1920.png?v=1539324064560"
             },
             {
                 "width": 1280,
-                "height": 960,
+                "height": 959,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1280.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1280.png?v=1539324065719"
             },
             {
                 "width": 1200,
-                "height": 900,
+                "height": 899,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1200.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1200.png?v=1539324064299"
             },
             {
                 "width": 1024,
-                "height": 768,
+                "height": 767,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1024.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1024.png?v=1539324065305"
             },
             {
                 "width": 1080,
-                "height": 810,
+                "height": 809,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1080.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--1080.png?v=1539324064349"
             },
             {
                 "width": 960,
-                "height": 720,
+                "height": 719,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--960.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--960.png?v=1539324065031"
             },
             {
                 "width": 640,
-                "height": 480,
+                "height": 479,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--640.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--640.png?v=1539324064318"
             },
             {
                 "width": 600,
-                "height": 450,
+                "height": 449,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--600.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--600.png?v=1539324064825"
             },
             {
                 "width": 256,
-                "height": 192,
+                "height": 191,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-media--256.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-media--256.png?v=1539324065348"
             }
         ],
         "thumbnails": [
@@ -96,37 +96,37 @@
                 "width": 1920,
                 "height": 1080,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1920.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1920.png?v=1539324066579"
             },
             {
                 "width": 1280,
                 "height": 720,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1280.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-1280.png?v=1539324066461"
             },
             {
                 "width": 640,
                 "height": 360,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-640.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-640.png?v=1539324066316"
             },
             {
                 "width": 480,
                 "height": 270,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-480.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-480.png?v=1539324066266"
             },
             {
                 "width": 256,
                 "height": 144,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-256.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-256.png?v=1539324066491"
             },
             {
                 "width": 64,
                 "height": 64,
                 "format": "png",
-                "url": "https:\/\/s3-us-west-2.amazonaws.com\/\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-64.png"
+                "url": "https:\/\/s3-us-west-2.amazonaws.com\/video-dev.tvpage.com\/1759121\/165008493\/image-thumbnail-64.png?v=1539324066728"
             }
         ]
     }
