@@ -34,7 +34,7 @@
         },
         "mediaDuration": "107",
         "prettyDuration": "00:01:47",
-        "thumbnailUrl": "\/\/v.tvpage.com\/1759121\/164632456\/c9c74\/thumb-2f462e0c5857bf78bfe6c674ccd12ade-00002.jpg",
+        "thumbnailUrl": "\/\/v-dev.tvpage.com\/1759121\/164632456\/thumbnail\/image-thumbnail-640-61e74a02e02bb6add48a61f9638c6974.jpg",
         "type": "mp4",
         "assetId": "164632456",
         "assetTitle": "Michael Libra Shirt Review",
@@ -81,7 +81,17 @@
                 "width": 320,
                 "height": 180
             }
-        ]
+        ],
+        "automaticThumbnailsPattern": "1759121\/164632456\/c9c74\/thumb-2f462e0c5857bf78bfe6c674ccd12ade-{count}",
+        "selectableThumbnails": [
+            "\/\/v-dev.tvpage.com\/1759121\/164632456\/user-images\/image-853-b1a526fec47afc85c844019a8786082a.jpg"
+        ],
+        "selectedThumbnailUrl": "\/\/v-dev.tvpage.com\/1759121\/164632456\/user-images\/image-853-b1a526fec47afc85c844019a8786082a.jpg",
+        "thumbnails": {
+            "256": "\/\/v-dev.tvpage.com\/1759121\/164632456\/thumbnail\/image-thumbnail-256-a17a57115e01419f9d47b38b614d5dd1.jpg",
+            "480": "\/\/v-dev.tvpage.com\/1759121\/164632456\/thumbnail\/image-thumbnail-480-2f690d28de575a57e550510ffbd2ebf8.jpg",
+            "640": "\/\/v-dev.tvpage.com\/1759121\/164632456\/thumbnail\/image-thumbnail-640-61e74a02e02bb6add48a61f9638c6974.jpg"
+        }
     },
     "transcripts": null,
     "metrics_statistics": "{\"VV_VI\":{\"engagement_score\":{\"lastUpdatedDate\":\"2018-06-16\"}}}",
